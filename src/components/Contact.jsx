@@ -8,29 +8,30 @@ function Contact() {
         </h2>
 
         <p className="text-gray-400 text-center mb-12">
-          I am open to internship opportunities, collaborations, and technical discussions.
-          Feel free to reach out.
+          I'm currently seeking Software Development Engineer internship and full-time opportunities.
+          Feel free to connect with me for collaborations or professional discussions.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12">
 
-          {/* Contact Info */}
           <div className="space-y-6">
 
             <div className="bg-gray-900 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-2">Email</h3>
               <p className="text-gray-400">
-                your-email@example.com
+                YOUR_EMAIL@gmail.com
               </p>
             </div>
 
             <div className="bg-gray-900 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
               <a
-                href="https://linkedin.com"
+                href="YOUR_LINKEDIN_URL"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
               >
-                linkedin.com/in/yourprofile
+                View LinkedIn Profile
               </a>
             </div>
 
@@ -38,6 +39,8 @@ function Contact() {
               <h3 className="text-xl font-semibold mb-2">GitHub</h3>
               <a
                 href="https://github.com/Venkata-Prabhath"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:underline"
               >
                 github.com/Venkata-Prabhath
@@ -46,7 +49,6 @@ function Contact() {
 
           </div>
 
-          {/* Contact Form */}
           <form className="bg-gray-900 p-8 rounded-lg space-y-4">
 
             <input

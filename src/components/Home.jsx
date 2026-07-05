@@ -6,7 +6,6 @@ function Home() {
       id="home"
       className="relative min-h-screen flex items-center bg-gray-950 text-white overflow-hidden"
     >
-
       {/* Stars Background */}
       <div className="stars"></div>
 
@@ -29,45 +28,59 @@ function Home() {
           </h1>
 
           <p className="text-xl text-gray-400 mb-6">
-            Machine Learning Enthusiast | Data Science | FullStack Developer | Student
+            Aspiring Software Development Engineer | Java Full-Stack Developer |
+            Spring Boot | React | PostgreSQL
+          </p>
+
+          <p className="text-gray-400 leading-relaxed mb-8 max-w-2xl">
+            Final-year Computer Science student at VIT, passionate about
+            building scalable full-stack applications and backend systems.
+            Experienced in developing secure REST APIs, responsive web
+            applications, and cloud-ready solutions using modern technologies.
           </p>
 
           <div className="flex gap-4 flex-wrap justify-center md:justify-start">
 
             <a
               href="#projects"
-              className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
+              className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
             >
-              Projects
+              View Projects
             </a>
 
             <a
               href="https://github.com/Venkata-Prabhath"
-              className="px-6 py-3 bg-gradient-to-r from-gray-700 via-gray-800 to-purple-500 text-white rounded-lg hover:opacity-80"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gradient-to-r from-gray-700 via-gray-800 to-purple-500 text-white rounded-lg hover:opacity-80 transition"
             >
               GitHub
             </a>
 
             <a
-              href="https://linkedin.com"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
             >
               LinkedIn
             </a>
 
             <a
-              href="https://instagram.com"
-              className="px-6 py-3 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-600 text-white rounded-lg hover:opacity-80"
+              href="https://instagram.com/YOUR-INSTAGRAM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-600 text-white rounded-lg hover:opacity-80 transition"
             >
               Instagram
             </a>
 
           </div>
 
-          <div className="mt-6">
+          <div className="mt-8">
             <a
               href="/resume.pdf"
-              className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 ml-35"
+              className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
             >
               Download Resume
             </a>
